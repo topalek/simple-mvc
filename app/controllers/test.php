@@ -6,6 +6,8 @@ class test extends Controller
 {
     public function index()
     {
-        echo 'test/index';
+        $this->layout = 'mat';
+
+        $this->render('index');
     }
 }

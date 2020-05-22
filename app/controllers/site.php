@@ -5,10 +5,15 @@ use app\core\Controller;
 
 class site extends Controller
 {
-    public function index()
+    public function index($name = '')
     {
-        echo 'site/index';
+        $user = $this->getModel('user');
+        $user->name = $name;
+        $this->render('index', ['user' => $user]);
     }
 
-
+    public function test()
+    {
+        var_dump(__FUNCTION__);
+    }
 }
