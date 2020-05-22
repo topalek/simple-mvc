@@ -14,6 +14,6 @@ class site extends Controller
 
     public function test()
     {
-        var_dump(__FUNCTION__);
+        echo json_encode($_SERVER);
     }
 }
