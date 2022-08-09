@@ -7,7 +7,6 @@
 
 namespace app\core;
 
-
 class View
 {
     public $layout = 'main';

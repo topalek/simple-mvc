@@ -4,7 +4,7 @@ namespace app\core;
 
 class Controller
 {
-    private View $_view;
+    private $_view;
     public $controllerName;
     public $viewPath;
     public $layout;

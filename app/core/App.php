@@ -2,6 +2,9 @@
 
 namespace app\core;
 
+use app\controllers\site;
+use app\controllers\test;
+use app\core\View;
 
 class App
 {

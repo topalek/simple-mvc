@@ -13,6 +13,12 @@
 
 </head>
 <body>
-<?= $content ?>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <?= $content ?>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
